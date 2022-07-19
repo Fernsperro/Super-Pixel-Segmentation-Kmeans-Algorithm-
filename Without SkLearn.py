@@ -44,7 +44,7 @@ for i in range(new_img.shape[0]):
     new_img[i] = centers[labels[i]]
 
 # Coverting the 2D array back to 3D array
-new_img = new_img.reshape((sample_image.shape)
+new_img = new_img.reshape((sample_image.shape))
 
 # Displaying the final image
 plt.imshow(new_img)
